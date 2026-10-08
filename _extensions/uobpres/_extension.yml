@@ -1,5 +1,5 @@
-title: University of Warwick Presentation
-author: Ella Kaye
+title: University of Birmingham Presentation
+author: Ella Kaye, Christine Stawitz
 version: 5.2.1
 quarto-required: ">=1.6.0"
 contributes:
@@ -15,13 +15,13 @@ contributes:
         echo: true
         code-overflow: wrap
     revealjs:
-      theme: warwickpres.scss
-      highlight-style: warwickpres-dark.theme
+      theme: uobpres.scss
+      highlight-style: uobpres-dark.theme
       slide-number: true
       callout-icon: true
       title-slide-attributes:
-        data-background-color: "#A499F4"
-        data-background-image: UoW_Wordmark_Positive_RGB.png
+        data-background-color: "#1B1B1B"
+        data-background-image: title_slide_rebrand.png
         data-background-size: 12%
         data-background-position: 97.5% 5%
       preview-links: auto

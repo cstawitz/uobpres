@@ -1,40 +1,38 @@
-# warwickpres format
+# uobpres format
 
-This is a Quarto Revealjs presentation format that is consistent with The University of Warwick's [brand](https://brand.warwick.ac.uk/).
+This is a Quarto Revealjs presentation format that is consistent with The University of Birmingham's [brand](https://brand.Birmingham.ac.uk/).
 
 It offers the following:
 
-- The University of Warwick logo on the title slide (pending)
-- A theme consistent with the University of Warwick's brand [colours](https://brand.warwick.ac.uk/en/brand-guidelines/design-elements/#315)
+- The University of Birmingham logo on the title slide (pending)
+- A theme consistent with the University of Birmingham's brand [colours](https://brand.Birmingham.ac.uk/en/brand-guidelines/design-elements/#315)
 - Arial font (the brand fonts of Neue Haas Grotesk is not available open-source, nor is the preferred substitute font of Aptos. Arial is the recommended substitute if neither of those are available)
 - Colours consistent with the brand for quarto callouts
 - A custom syntax highlighting theme consistent with the brand colours
 - Additional convenience classes for sizing and aligning
 
-Users of warwickpres may also be interested in [warwickcourse](https://github.com/warwick-stats-resources/warwickcourse), a quarto template for University of Warwick branded course/workshop websites.
-
-## Installing warwickpres
+## Installing uobpres
 
 ```bash
-quarto use template Warwick-Stats-Resources/warwickpres
+quarto use template cstawitz/uobpres
 ```
 
 This will install the extension and create an example `.qmd` file that you can use as a starting place for your presentation. This also serves as documentation.
 
 ## Workflow for using this extension in [positron](https://positron.posit.co)
 
-This is my preferred workflow for using the template and warwickpres extension:
+This is my preferred workflow for using the template and uobpres extension:
 
 1. In positron, open a new folder, which is where the template and extension will go
 2. In the terminal, run
 
 ```bash
-quarto use template Warwick-Stats-Resources/warwickpres
+quarto use template cstawitz/uobpres
 ```
 
 3. When prompted, type 'Y' to trust the authors of the template
 4. When prompted, type 'N' to **not** create a subdirectory
-5. When prompted, type 'Y' to install the warwickpres extension
+5. When prompted, type 'Y' to install the uobpres extension
 
 ## Workflow for using this extension in RStudio
 
@@ -48,14 +46,14 @@ When you want to start a new project with the template:
 3. Run the following:
 
 ``` bash
-quarto use template Warwick-Stats-Resources/warwickpres
+quarto use template cstawitz/uobpres
 ```
 
 4. When prompted, type 'Y' to trust the authors of the template
 5. When prompted, type 'Y' to create a subdirectory, then enter the directory name
-5. When prompted, type 'Y' to install the warwickpres extension
+5. When prompted, type 'Y' to install the uobpres extension
 5. In RStudio Files pane (or other file navigator), go to the directory just created
-6. The directory should contain `"warwickpres.Rproj"`. Click on that to launch the project.
+6. The directory should contain `"uobpres.Rproj"`. Click on that to launch the project.
     - If you have lots of directories from the same extension, may want to rename the .Rproj file to something unique, e.g. to share the directory name (to make file search easier)
 
 ## Workflow for using with git/GitHub/gh-pages
@@ -88,6 +86,6 @@ In positron, you can also use the built-in 'Source Control' pane to set up git a
 
 Here is the source code for a minimal sample document: [template.qmd](template.qmd)
 
-And here it is online: <https://warwick-stats-resources.github.io/warwickpres>
+And here it is online: <https://cstawitz.github.io/uobpres>
 
-These files together demonstrate what the warwickpres extension offers and how to use it.
+These files together demonstrate what the uobpres extension offers and how to use it.

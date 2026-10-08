@@ -6,7 +6,7 @@ date: last-modified
 date-format: long
 footer: <https://uobpres.github.io>
 format:
-  warwickpres-revealjs: default
+  uobpres-revealjs: default
 ---
 
 ## Introduction
