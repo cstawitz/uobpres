@@ -21,7 +21,8 @@ contributes:
       title-slide-attributes:
         data-background-color: "#1B1B1B"
         data-background-image: title_slide_rebrand.png
-        data-background-size: contain
+        data-background-size: 100%
+        data-background-position: 2.5% 5%
       center-title-slide: false
       preview-links: auto
       link-external-newwindow: true
