@@ -39,7 +39,7 @@ $code-block-font-size: .7em;
 $presentation-heading-font: $headings-font-family;
 $body-color: $Black;
 $link-color: $Blue;
-$code-color: $Purple; // with $purple, not quite enough differentiation from black 
+$code-color: $Gold; // with $purple, not quite enough differentiation from black 
 
 $callout-color-note: $Blue;
 $callout-color-caution: $Orange;
@@ -248,7 +248,7 @@ kbd {
 }
 
 .footer a {
-  color: $Purple !important;
+  color: $Gold !important;
 }
 
 // Lines of Intent
