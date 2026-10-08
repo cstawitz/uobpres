@@ -1,6 +1,6 @@
 title: University of Birmingham Presentation
-author: Ella Kaye, Christine Stawitz
-version: 5.2.1
+author: Ella Kaye
+version: 1.0.0
 quarto-required: ">=1.6.0"
 contributes:
   formats:
