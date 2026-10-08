@@ -23,7 +23,7 @@ contributes:
         data-background-color: "#1B1B1B"
         data-background-image: title_slide_rebrand.png
         data-background-size: 100%
-        data-background-position: 0% 0%
+        data-background-position: 5% 5%
       preview-links: auto
       link-external-newwindow: true
       width: 1280
