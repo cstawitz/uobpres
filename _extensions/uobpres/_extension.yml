@@ -16,14 +16,13 @@ contributes:
         code-overflow: wrap
     revealjs:
       theme: uobpres.scss
-      highlight-style: uobpres-dark.theme
       slide-number: true
       callout-icon: true
       title-slide-attributes:
         data-background-color: "#1B1B1B"
         data-background-image: title_slide_rebrand.png
-        data-background-size: 90%
-        data-background-position: 5% 5%
+        data-background-size: contain
+      center-title-slide: false
       preview-links: auto
       link-external-newwindow: true
       width: 1280
