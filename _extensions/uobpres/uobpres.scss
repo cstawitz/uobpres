@@ -44,8 +44,8 @@ $code-color: $Purple; // with $purple, not quite enough differentiation from bla
 $callout-color-note: $Blue;
 $callout-color-caution: $Orange;
 $callout-color-tip: $Green;
-$callout-color-warning: $Yellow;
-$callout-color-important: $Gold;
+$callout-color-warning: $Gold;
+$callout-color-important: $Pink;
 
 /*-- scss:rules --*/
 
@@ -55,7 +55,7 @@ $colors: (
   'Orange': $Orange,
   'Blue': $Blue,
   'Green': $Green,
-  'Yellow': $Yellow,
+  'Pink': $Pink,
 );
 
 // color classes for highlighting text
