@@ -35,6 +35,7 @@ $Deeporange: #CF4527;
 $primary: $Gold !default;
 
 $presentation-font-size-root: 32px;
+$presentation-title-slide-text-align: left;
 $code-block-font-size: .7em;
 $presentation-heading-font: $headings-font-family;
 $body-color: $Black;
@@ -170,7 +171,6 @@ pre.sourceCode {
   font-size: 70px;
   padding-bottom: .25em;
   color: $White;
-  text-align: left;
 }
 
 #title-slide .subtitle {
