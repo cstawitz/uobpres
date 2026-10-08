@@ -1,59 +1,61 @@
 /*-- scss:defaults --*/
 
 @import url(https://fonts.googleapis.com/css?family=Fira+Mono&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Manrope&display=swap);
 
-$font-family-sans-serif: Arial, sans-serif !default;
+$font-family-sans-serif: "Manrope", sans-serif !default;
 $font-family-monospace: "Fira Mono", monospace;
-$headings-font-family: Arial, sans-serif !default;
+$headings-font-family: "Times New Roman", sans-serif !default;
 
-// Warwick colors 
-$lavender: #A499F4;
-$purple: #440379;
-$coral: #F1977F; 
-$blue: #6CB7FF;
-$green: #51D7C1;
-$yellow: #FEDE7B;
+// UoB colors
+$White: #FAFAFA
+$Black: #1B1B1B
+$Gold: #C59A00
 
-$black: #0C0C0C;
-$gray-mid: #9E9E9E;
-$gray-light: #CECECE;
-$white: #FDFCFC;
+// secondary palette, not for big blocks of text
+$Green: #3AAA35
+$Turquoise: #00ACA9
+$Blue: #2581C4
+$Purple: #5E4F9C
+$Grey: #58595B
+$Red: #E30513
+$Pink: #EA5284
+$Orange: #F07F3C
 
 // Different shades 
-$purple-bright: #693594;
-$blue-dark: #4C80B3;
-/*
-$lavender-dark: #625C92;
-$coral-dark: #794C40; 
-$blue-dark: #416E99;
-$green-dark: #318174;
-$yellow-dark: #7F6F3E;
-*/
+$Deepgreen: #007838
+$Deepturquoise: #00788E
+$Deepblue: #0057BF
+$Deeppurple: #501D83
+$Deepgrey: #3C3C3B
+$Deepred: #C20019
+$Deeppink: #DB0661
+$Deeporange: #CF4527
 
-$primary: $lavender !default;
+$primary: $Gold !default;
 
 $presentation-font-size-root: 32px;
 $code-block-font-size: .7em;
 $presentation-heading-font: $headings-font-family;
-$body-color: $black;
-$link-color: $blue-dark; 
-$code-color: $purple-bright; // with $purple, not quite enough differentiation from black 
+$body-color: $Black;
+$link-color: $Blue;
+$code-color: $Purple; // with $purple, not quite enough differentiation from black 
 
-$callout-color-note: $blue;
-$callout-color-caution: $coral;
-$callout-color-tip: $green;
-$callout-color-warning: $yellow;
-$callout-color-important: $lavender;
+$callout-color-note: $Blue;
+$callout-color-caution: $Orange;
+$callout-color-tip: $Green;
+$callout-color-warning: $Yellow;
+$callout-color-important: $Gold;
 
 /*-- scss:rules --*/
 
 // Create a map using color names
 $colors: (
-  'lavender': $lavender,
-  'coral': $coral,
-  'blue': $blue,
-  'green': $green,
-  'yellow': $yellow,
+  'Gold': $Gold,
+  'Orange': $Orange,
+  'Blue': $Blue,
+  'Green': $Green,
+  'Yellow': $Yellow,
 );
 
 // color classes for highlighting text
@@ -86,7 +88,7 @@ and for stressing important points.
 */
 .inverse {
   .slide-background-content {
-    background-color: $lavender;
+    background-color: $Gold;
   }  
 }
 
@@ -148,10 +150,10 @@ pre.sourceCode {
 // diff highlighting - override String/Variable colors for diff blocks
 .sourceCode.diff {
   .st {  // deletions (mapped to String by Pandoc)
-    color: $coral;
+    color: $Orange;
   }
   .va {  // additions (mapped to Variable by Pandoc)
-    color: $green;
+    color: $Green;
   }
 }
 
@@ -228,7 +230,7 @@ p {
 // tables
 .reveal table th, .reveal table td {
     border-bottom: 1px solid;
-    border-color: $gray-light;
+    border-color: $White;
 }
 
 // keyboard
@@ -247,4 +249,45 @@ kbd {
 
 .footer a {
   color: $purple !important;
+}
+
+// Lines of Intent
+.LoI-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #1B1B1B;
+}
+
+.line {
+  position: absolute;
+  width: 1px;
+  background-color: #FAFAFA;
+  top: 40%;
+  left: 10%;
+}
+
+/* Rotate the lines and set their length individually */
+.line-1 {
+  transform: rotate(20deg);
+  height: 200px;
+  transform-origin: 0px 0px;
+}
+
+.line-2 {
+  transform: rotate(145deg);
+  height: 110px;
+  transform-origin: 0px 0px;
+}
+
+.line-3 {
+  transform: rotate(80deg);
+  height: 130px;
+  transform-origin: 0px 0px;
+}
+
+.line-4 {
+  transform: rotate(-115deg);
+  height: 130px;
+  transform-origin: 0px 1px;
 }
