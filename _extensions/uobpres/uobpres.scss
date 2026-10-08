@@ -39,7 +39,7 @@ $code-block-font-size: .7em;
 $presentation-heading-font: $headings-font-family;
 $body-color: $Black;
 $link-color: $Blue;
-$code-color: $Gold; // with $purple, not quite enough differentiation from black 
+$code-color: $Green; // with $purple, not quite enough differentiation from black 
 
 $callout-color-note: $Blue;
 $callout-color-caution: $Orange;
@@ -166,13 +166,12 @@ pre.sourceCode {
 }
 */
 
-/*
 #title-slide .title {
   font-size: 70px;
   padding-bottom: .25em;
-  color: $teal_bright;
+  color: $DarkGreen;
+  text-align: left;
 }
-*/
 
 #title-slide .subtitle {
   margin-bottom: 6rem;
