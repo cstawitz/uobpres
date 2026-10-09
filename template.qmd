@@ -17,17 +17,17 @@ This is a Quarto presentation format that is consistent with The University of B
 Speaker notes go here.
 :::
 
-# Colour backgrounds for new sections {.lavender-bg}
+# Colour backgrounds for new sections {.Gold-bg}
 
-## {.green-bg .center-h .center .larger200}
+## {.Green-bg .center-h .center .larger200}
 
 Or stressing **key points**
 
-# Blue background {.blue-bg}
+# Blue background {.Blue-bg}
 
-# Yellow background {.yellow-bg}
+# Pink background {.Pink-bg}
 
-# Coral background {.coral-bg}
+# Orange background {.Orange-bg}
 
 ## Text highlights
 
@@ -43,7 +43,7 @@ Hightlight key words with a `.{color}` class, where `color` is one of:
 
 There's a colour for inline code such as `x <- c(1, 3, 6)` and `{.Gold-bg}`.
 
-There's also a colour for short [links](https://github.com/Warwick-Stats-Resources/warwickpres) and full ones like <https://quarto.org/docs/presentations/revealjs/>.
+There's also a colour for short [links](https://github.com/cstawitz/uobpres) and full ones like <https://quarto.org/docs/presentations/revealjs/>.
 
 ## Typography
 
@@ -108,41 +108,41 @@ Be careful about doing this
 
 ## Columns with backgrounds
 
-Use class `.col-box-{color}` to apply colour box styling, e.g. `.col-box-lavender`
+Use class `.col-box-{color}` to apply colour box styling, e.g. `.col-box-Gold`
 
 ::: {columns}
-::: {.column .col-box-lavender width="32%"}
-Box 1: lavender
+::: {.column .col-box-Gold width="32%"}
+Box 1: Gold
 
 Default height is 450px
 :::
 
-::: {.column .col-box-green width="32%"}
-Box 2: green
+::: {.column .col-box-Green width="32%"}
+Box 2: Green
 
 :::
 
-::: {.column .col-box-blue width="32%"}
-Box 3: blue
+::: {.column .col-box-Blue width="32%"}
+Box 3: Blue
 :::
 :::
 
 ## Columns with backgrounds: tall and short
 
 ::::: {columns}
-:::: {.column .col-box-green-tall width="49%"}
+:::: {.column .col-box-Green-tall width="49%"}
 Colour box styling can be applied to entire columns
 
-This has height 600px and class `.col-box-green-tall`
+This has height 600px and class `.col-box-Green-tall`
 ::::
 
 :::: {.column width="49%"}
-:::{.col-box-coral-short}
+:::{.col-box-Orange-short}
 Or to divs within columns to create stacks
 :::
 
-:::{.col-box-yellow-short}
-This div has height 300px and class `.col-box-yellow-short`
+:::{.col-box-Pink-short}
+This div has height 300px and class `.col-box-Pink-short`
 :::
 
 ::::
@@ -150,7 +150,7 @@ This div has height 300px and class `.col-box-yellow-short`
 :::::
 
 
-# Non-Warwick-specific nice-to-haves {.green-bg}
+# Non-UoB-specific nice-to-haves {.Green-bg}
 
 ## Alignment
 
@@ -184,4 +184,4 @@ You can learn more about Quarto Revealjs presentations at <https://quarto.org/do
 
 You can learn more about Quarto extensions at <https://quarto.org/docs/extensions/>
 
-You can find these slides at <https://warwick-stats-resources.github.io/warwickpres/>
+You can find these slides at <https://uobrug.github.io/uobpres/>
