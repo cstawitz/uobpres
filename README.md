@@ -1,6 +1,6 @@
 # uobpres format
 
-This is a Quarto Revealjs presentation format that is consistent with The University of Birmingham's [brand](https://brand.Birmingham.ac.uk/).
+This is a Quarto Revealjs presentation format that is consistent with The University of Birmingham's [brand](https://brand.Birmingham.ac.uk/). It is a fork of [Ella Kaye](https://github.com/EllaKaye/)'s [warwickpres](https://github.com/warwick-stats-resources/warwickpres) repo with minimal changes.
 
 It offers the following:
 
