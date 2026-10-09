@@ -16,6 +16,7 @@ contributes:
         code-overflow: wrap
     revealjs:
       theme: uobpres.scss
+      highlight-style: uobpres-dark.theme
       slide-number: true
       callout-icon: true
       title-slide-attributes:
