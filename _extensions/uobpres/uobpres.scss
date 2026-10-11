@@ -6,6 +6,22 @@
 $font-family-sans-serif: "Manrope", sans-serif !default;
 $font-family-monospace: "Fira Mono", monospace;
 $headings-font-family: "Times New Roman", sans-serif !default;
+$body-bg: #1B1B1B;
+$body-color: #FAFAFA;
+// $accent-color: #C59A00;
+$accent-color: #D9B000; // brighter gold for better contrast
+
+// Mermaid Diagrams
+$mermaid-bg-color: $body-bg;
+$mermaid-edge-color: $accent-color;
+$mermaid-fg-color: $body-color;
+$mermaid-fg-color--lighter: lighten($body-color, 10%);
+$mermaid-fg-color--lightest: lighten($body-color, 20%);
+// $mermaid-font-family: $font-family-sans-serif;
+$mermaid-label-bg-color: $body-bg;
+$mermaid-label-fg-color: $body-color;
+$mermaid-node-bg-color: rgba($body-bg, 0.1);
+$mermaid-node-fg-color: $accent-color;
 
 // UoB colors
 $White: #FAFAFA;
