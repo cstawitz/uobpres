@@ -8,19 +8,6 @@ $font-family-monospace: "Fira Mono", monospace;
 $headings-font-family: "Times New Roman", sans-serif !default;
 // $accent-color: #C59A00;
 $accent-color: #D9B000; // brighter gold for better contrast
-
-// Mermaid Diagrams
-$mermaid-bg-color: $White;
-$mermaid-edge-color: $accent-color;
-$mermaid-fg-color: $Black;
-$mermaid-fg-color--lighter: lighten($Black, 10%);
-$mermaid-fg-color--lightest: lighten($Black, 20%);
-// $mermaid-font-family: $font-family-sans-serif;
-$mermaid-label-bg-color: $White;
-$mermaid-label-fg-color: $Black;
-$mermaid-node-bg-color: rgba($White, 0.1);
-$mermaid-node-fg-color: $accent-color;
-
 // UoB colors
 $White: #FAFAFA;
 $Black: #1B1B1B;
@@ -47,6 +34,18 @@ $Deeppink: #DB0661;
 $Deeporange: #CF4527;
 
 $primary: $Gold !default;
+
+// Mermaid Diagrams
+$mermaid-bg-color: $White;
+$mermaid-edge-color: $accent-color;
+$mermaid-fg-color: $Black;
+$mermaid-fg-color--lighter: lighten($Black, 10%);
+$mermaid-fg-color--lightest: lighten($Black, 20%);
+// $mermaid-font-family: $font-family-sans-serif;
+$mermaid-label-bg-color: $White;
+$mermaid-label-fg-color: $Black;
+$mermaid-node-bg-color: rgba($White, 0.1);
+$mermaid-node-fg-color: $accent-color;
 
 $presentation-font-size-root: 32px;
 $presentation-title-slide-text-align: left;
